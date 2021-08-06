@@ -7,17 +7,10 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/io/github/dougllasfps/service/ClientesService.java" line="16" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95fd84cf-cc1e-422d-acf1-87458357a402" name="Default Changelist" comment="Adicionadas classes de entidade sem a anotações.">
+    <list default="true" id="95fd84cf-cc1e-422d-acf1-87458357a402" name="Default Changelist" comment="Insert e busca de dados com JDBC">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/VendasApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/entity/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/model/ClienteModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/repository/ClientesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/repository/ClientesRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/service/ClientesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/service/ClientesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/dougllasfps/VendasApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/dougllasfps/VendasApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/dougllasfps/model/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/dougllasfps/repository/ClientesRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/dougllasfps/repository/ClientesRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/dougllasfps/service/ClientesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/dougllasfps/service/ClientesService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/repository/Clientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/repository/Clientes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628281539779</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Insert e busca de dados com JDBC">
+      <created>1628282913328</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1628282913328</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -274,7 +274,8 @@
     <MESSAGE value="injeção de dependências" />
     <MESSAGE value="Configurado h2 database" />
     <MESSAGE value="Adicionadas classes de entidade sem a anotações." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionadas classes de entidade sem a anotações." />
+    <MESSAGE value="Insert e busca de dados com JDBC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Insert e busca de dados com JDBC" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.2.4.RELEASE/spring-boot-dependencies-2.2.4.RELEASE.pom">

@@ -28,7 +28,9 @@ public class Clientes {
         return jdbcTemplate.query(SELECT_ALL, new RowMapper<Cliente>(){
             @Override
             public Cliente mapRow(ResultSet resultSet, int i) throws SQLException {
-                return new Cliente(resultSet.getString("nome"));
+                Integer id = resultSet.getInt("id");
+                String nome = resultSet.getString("nome");
+                return new Cliente(id, nome);
             }
         });
 
