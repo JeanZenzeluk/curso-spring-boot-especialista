@@ -1,6 +1,6 @@
 package io.github.dougllasfps.model;
 
-public class Cliente {
+public class ClienteModel {
     private String nome;
 
     public String getNome() {
