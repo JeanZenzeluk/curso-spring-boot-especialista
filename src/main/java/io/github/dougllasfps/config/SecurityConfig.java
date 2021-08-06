@@ -21,7 +21,6 @@ import org.springframework.web.filter.OncePerRequestFilter;
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 
-
     @Autowired
     private UsuarioServiceImpl usuarioService;
     @Autowired
