@@ -7,59 +7,13 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/io/github/dougllasfps/service/ClientesService.java" line="16" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95fd84cf-cc1e-422d-acf1-87458357a402" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendas.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="95fd84cf-cc1e-422d-acf1-87458357a402" name="Default Changelist" comment="Configurado h2 database">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/entity/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/entity/ItemPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/entity/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/entity/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/VendasApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/config/InternacionalizacaoConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/config/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/config/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/entity/Cliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/entity/ItemPedido.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/entity/Pedido.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/entity/Produto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/entity/Usuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/enums/StatusPedido.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/repository/Clientes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/repository/ItemsPedido.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/repository/Pedidos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/repository/Produtos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/repository/UsuarioRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/exception/PedidoNaoEncontradoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/exception/RegraNegocioException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/exception/SenhaInvalidaException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/ApiErrors.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/controller/ApplicationControllerAdvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/controller/ClienteController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/controller/PedidoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/controller/ProdutoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/controller/UsuarioController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/dto/AtualizacaoStatusPedidoDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/dto/CredenciaisDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/dto/InformacaoItemPedidoDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/dto/InformacoesPedidoDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/dto/ItemPedidoDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/dto/PedidoDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/dto/TokenDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/security/jwt/JwtAuthFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/security/jwt/JwtService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/service/PedidoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/service/impl/PedidoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/service/impl/UsuarioServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/validation/NotEmptyList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/validation/constraintvalidation/NotEmptyListValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/meu_schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/dougllasfps/VendasApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/dougllasfps/VendasApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,12 +60,14 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="JPA Palette" value="true" />
         <entry key="JPA Structure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="JPA Structure" value="true" />
+        <entry key="JPA Palette" value="false" />
+        <entry key="JPA Structure" value="false" />
       </map>
     </option>
   </component>
@@ -195,6 +151,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dougl\desenvolvimento\meus projetos\vendas\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.github.dougllasfps.domain.entity" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="VendasApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -246,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580083238012</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Configurado h2 database">
+      <created>1628279222424</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628279222425</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -295,7 +261,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configurações e Beans" />
     <MESSAGE value="injeção de dependências" />
-    <option name="LAST_COMMIT_MESSAGE" value="injeção de dependências" />
+    <MESSAGE value="Configurado h2 database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configurado h2 database" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.2.4.RELEASE/spring-boot-dependencies-2.2.4.RELEASE.pom">
