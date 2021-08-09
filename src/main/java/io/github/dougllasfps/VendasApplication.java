@@ -36,8 +36,8 @@ public class VendasApplication extends SpringBootServletInitializer {
             clientes.save(new Cliente("Jeannn"));
             clientes.save(new Cliente("Outro clientenn"));
 
-            boolean existe = clientes.existsByNome("Jeann");
-            System.out.println("Existe um cliente? " + existe);
+            List<Cliente> result = clientes.encontrarPorNome("Jeannn");
+            result.forEach(System.out::println);
 
 //            List<Cliente> todosClientes = clientes.findAll();
 //            todosClientes.forEach(System.out::println);
