@@ -33,8 +33,8 @@ public class VendasApplication extends SpringBootServletInitializer {
 
             System.out.println("Salvando cLientes");
 
-            clientes.salvar(new Cliente("Jean"));
-            clientes.salvar(new Cliente("Outro cliente"));
+            clientes.salvar(new Cliente("Jeannn"));
+            clientes.salvar(new Cliente("Outro clientenn"));
 
             List<Cliente> todosClientes = clientes.obterTodos();
             todosClientes.forEach(System.out::println);
@@ -54,7 +54,7 @@ public class VendasApplication extends SpringBootServletInitializer {
 
             System.out.println("Deletando Clientes");
             clientes.obterTodos().forEach(c -> {
-//                clientes.deletar(c);
+                clientes.deletar(c);
             });
 
             todosClientes = clientes.obterTodos();
