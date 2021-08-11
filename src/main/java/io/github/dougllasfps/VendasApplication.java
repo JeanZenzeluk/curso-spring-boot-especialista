@@ -37,19 +37,21 @@ public class VendasApplication extends SpringBootServletInitializer {
             @Autowired Pedidos pedidos){
         return args -> {
 
-            System.out.println("Salvando cLientes");
+//            System.out.println("Salvando cLientes");
+//
+//            clientes.save(new Cliente("Jeannn"));
+//            Cliente fulano = clientes.save(new Cliente("Outro clientenn"));
+//
+//            Pedido p = new Pedido();
+//            p.setCliente(fulano);
+//            p.setDataPedido(LocalDate.now());
+//            p.setTotal(BigDecimal.valueOf(100));
+//
+//            pedidos.save(p);
+//
+//            pedidos.findByCliente(fulano).forEach(System.out::println);
 
-            clientes.save(new Cliente("Jeannn"));
-            Cliente fulano = clientes.save(new Cliente("Outro clientenn"));
 
-            Pedido p = new Pedido();
-            p.setCliente(fulano);
-            p.setDataPedido(LocalDate.now());
-            p.setTotal(BigDecimal.valueOf(100));
-
-            pedidos.save(p);
-
-            pedidos.findByCliente(fulano).forEach(System.out::println);
 
 //            Cliente cliente = clientes.findClienteFetchPedidos(fulano.getId());
 //            System.out.println(cliente);
