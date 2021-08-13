@@ -21,7 +21,7 @@ public class ProdutoController {
     }
 
     @GetMapping("/{id}")
-    public Produto getProdutoById(@PathVariable Integer id){
+    public Produto getById(@PathVariable Integer id){
         return produtos
                 .findById(id)
                 .orElseThrow(() ->
@@ -38,21 +38,12 @@ public class ProdutoController {
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void delete(@PathVariable Integer id){
 
-        produtos.findById(id).map(produtoExistente -> {
-            produtos.delete(produtoExistente);
-            return produtoExistente;
+        produtos.findById(id).map(p -> {
+            produtos.delete(p);
+            return Void.TYPE;
         }).orElseThrow( () -> new ResponseStatusException(HttpStatus.NOT_FOUND,
                 "Produto não encontrado"));
 
-//        produtos.findById(id).map(produtoExistente -> {
-//            produtos.delete(produtoExistente);
-//        }).orElseThrow( () -> new ResponseStatusException(HttpStatus.NOT_FOUND,
-//                "Produto não encontrado"));
-//
-//        produtos.findById(id)
-//                .map( produtoExistente -> produtos.delete(produtoExistente))
-//                .orElseThrow(() ->
-//                        new ResponseStatusException(HttpStatus.NOT_FOUND, "Produto não encontrado"));
     }
 
     @PutMapping("{id}")

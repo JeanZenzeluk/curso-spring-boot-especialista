@@ -48,15 +48,6 @@ public class ClienteController {
         }).orElseThrow( () -> new ResponseStatusException(HttpStatus.NOT_FOUND,
                 "Cliente não encontrado"));
 
-//        clientes.findById(id).map(clienteExistente -> {
-//            clientes.delete(clienteExistente);
-//        }).orElseThrow( () -> new ResponseStatusException(HttpStatus.NOT_FOUND,
-//                "Cliente não encontrado"));
-//
-//        clientes.findById(id)
-//                .map( clienteExistente -> clientes.delete(clienteExistente))
-//                .orElseThrow(() ->
-//                        new ResponseStatusException(HttpStatus.NOT_FOUND, "Cliente não encontrado"));
     }
 
     @PutMapping("{id}")
