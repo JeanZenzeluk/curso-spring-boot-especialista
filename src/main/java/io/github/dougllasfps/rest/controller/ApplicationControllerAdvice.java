@@ -1,5 +1,6 @@
 package io.github.dougllasfps.rest.controller;
 
+import io.github.dougllasfps.exception.PedidoNaoEcontradoException;
 import io.github.dougllasfps.exception.RegraNegocioException;
 import io.github.dougllasfps.rest.ApiErros;
 import org.springframework.http.HttpStatus;
@@ -16,6 +17,12 @@ public class ApplicationControllerAdvice {
     public ApiErros handleRegraNegocioException(RegraNegocioException ex){
         String mensagemErro = ex.getMessage();
         return new ApiErros(mensagemErro);
+    }
+
+    @ExceptionHandler(PedidoNaoEcontradoException.class)
+    @ResponseStatus(HttpStatus.NOT_FOUND)
+    public ApiErros handlePedidoNotFoundException(PedidoNaoEcontradoException ex){
+        return new ApiErros(ex.getMessage());
     }
 
 }
