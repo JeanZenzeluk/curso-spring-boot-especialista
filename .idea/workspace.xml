@@ -7,20 +7,16 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/io/github/dougllasfps/service/ClientesService.java" line="16" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95fd84cf-cc1e-422d-acf1-87458357a402" name="Default Changelist" comment="Adicionado primeiro item do BeanValidate">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/config/InternacionalizacaoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/validation/NotEmptyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/validation/constraintvalidation/NotEmptyListValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
+    <list default="true" id="95fd84cf-cc1e-422d-acf1-87458357a402" name="Default Changelist" comment="Finalizado BeanValidation...">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/entity/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/repository/UsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/controller/UsuarioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/service/impl/UsuarioServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/entity/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/entity/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/domain/entity/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/controller/ClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/controller/PedidoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/controller/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/controller/ProdutoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/dto/PedidoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/rest/dto/PedidoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/dougllasfps/domain/entity/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/dougllasfps/domain/entity/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/dougllasfps/domain/entity/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/dougllasfps/domain/entity/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/impl/PedidoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dougllasfps/service/impl/PedidoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +30,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -334,7 +330,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629729346371</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Finalizado BeanValidation.">
+      <created>1629832023056</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1629832023056</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Finalizado BeanValidation...">
+      <created>1629832046117</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1629832046117</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -399,7 +409,9 @@
     <MESSAGE value="Add Lombok, springdevtools, e pedido Controller." />
     <MESSAGE value="Finalizada parte de serviços RestFull" />
     <MESSAGE value="Adicionado primeiro item do BeanValidate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionado primeiro item do BeanValidate" />
+    <MESSAGE value="Finalizado BeanValidation." />
+    <MESSAGE value="Finalizado BeanValidation..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizado BeanValidation..." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.2.4.RELEASE/spring-boot-dependencies-2.2.4.RELEASE.pom">
